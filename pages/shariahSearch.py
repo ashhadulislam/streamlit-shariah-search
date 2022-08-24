@@ -1,6 +1,5 @@
 import streamlit as st
 from lib import commons
-import torch
 import pandas as pd
 import pickle
 
