@@ -1,1 +1,1 @@
-# Pox detection UI
+# Shariah Search UI
