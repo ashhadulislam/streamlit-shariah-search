@@ -11,7 +11,7 @@ from PyPDF2 import PdfReader
 import pandas as pd
 
 
-from torchvision import datasets, models, transforms
+
 
 
 def get_similar_articles(q, df,vectorizer):
