@@ -52,7 +52,7 @@ def get_selected_pdf(the_pages,q1):
             page=reader.pages[start]
             # print("page is ",page)
             # print("*"*10)
-            pdf_writer.addPage(page)
+            pdf_writer.add_page(page)
             # pdf_writer.addPage(reader.getPage(start))
             start+=1
     with open(savepath,'wb') as out:
