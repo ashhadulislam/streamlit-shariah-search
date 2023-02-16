@@ -6,7 +6,8 @@ import os
 import time
 import copy
 import os
-from PyPDF2 import PdfFileWriter
+from PyPDF2 import PdfWriter
+
 from PyPDF2 import PdfReader
 import pandas as pd
 
