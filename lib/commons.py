@@ -6,7 +6,7 @@ import os
 import time
 import copy
 import os
-from PyPDF2 import PdfWriter as PdfFileWriter
+from PyPDF2 import PdfWriter
 
 from PyPDF2 import PdfReader
 import pandas as pd
@@ -44,7 +44,7 @@ def get_selected_pdf(the_pages,q1):
     savepath="output/"+q1+".pdf"
 
 
-    pdf_writer = PdfFileWriter()
+    pdf_writer = PdfWriter()
     for start_page in the_pages:
         start = start_page
         end = start+1
